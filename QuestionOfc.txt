@@ -1,1 +1,56 @@
 
+  Scanner in = new Scanner(System.in);
+  
+          //Reverse A String In Java
+        String name = "Abhishek" , reverse = "";
+        char ch;
+        for(int i =0; i<name.length(); i++){
+           ch = name.charAt(i);
+           System.out.println(ch);
+            reverse = ch+reverse;
+        }
+        System.out.println(reverse);
+        
+        
+  //armstrong num 153 = 1*1*1 + 5*5*5 + 3*3*3
+    int lastdigit;
+    int i =153;
+    int x =i;
+    double ar = 0;
+    while(i>0){
+         lastdigit = i%10;
+        System.out.println(lastdigit);
+        ar += Math.pow(lastdigit, 3);
+        i /=10;
+    }
+        if(ar == x){
+            System.out.println("Number is armstrong");
+        }else {
+            System.out.println("Number is not armstrong");
+        }
+    }
+    
+    // Palindrome
+    
+            String p = in.next() , reverse = "";
+      char ch ;
+        for( int i=0; i<p.length(); i++){
+          ch = p.charAt(i);
+          reverse = ch + reverse;
+      }
+        System.out.println(reverse);
+        System.out.println(p);
+        if(p.equals(reverse)){
+            System.out.println("Pallindrome");
+        }else {
+            System.out.println("Not pallindrome");
+        }
+    }
+    
+    future value
+         int pv = in.nextInt();
+         float interest_percent = in.nextFloat();
+         float interest_rate = pv* (interest_percent/100);
+         int time = in.nextInt(); // time in years
+         float fv = pv + (1+interest_rate)*time;
+        System.out.println(fv);
