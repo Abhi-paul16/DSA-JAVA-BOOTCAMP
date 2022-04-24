@@ -10,4 +10,8 @@ So yeah i started Dsa many time but don't continue it but today 12.04.2022 i am 
 18.04.2022 - Solve two more..<br>
 19.04.2022 - Solve two more..<br>
 20.04.2022 - Solve two more..<br>
-21.04.2022 - Pattern Questions
+21.04.2022 - Pattern Questions..<br>
+22.04.2022 - Pattern Questions..<br>
+23.04.2022 - Pattern Questions..<br>
+24.04.2022 - Pattern Questions..<br>
+25.04.2022 - 
